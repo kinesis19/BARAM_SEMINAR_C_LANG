@@ -7,6 +7,7 @@ int main() {
 
 	printf("트리의 높이를 입력하세요 : ");
 	scanf("%d", &userInput);
+	printf("\n"); // 출력 샘플에 맞게 추가함.
 	for (i = 0; i < userInput; i++) {
 		for (j = 0; j <= i; j++) {
 			printf("*");
